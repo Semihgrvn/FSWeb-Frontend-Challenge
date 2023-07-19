@@ -5,19 +5,13 @@ export default function Footer({ language }) {
         <div className="footerSection">
             <div className="footer">
                 <div className="footerContainer">
-                    {language === "en" ? (
-                        <div>
-                            <h2 className="footerText">
-                                Let’s work together on <br /> your next product.
-                            </h2>
-                        </div>
-                    ) : (
-                        <div>
-                            <h2 className="footerText">
-                                Bir Sonraki Projeniz için <br /> Birlikte Çalışalım.
-                            </h2>
-                        </div>
-                    )}
+
+                    <div>
+                        <h2 className="footerText">
+                            Bir Sonraki Projeniz için <br /> Birlikte Çalışalım.
+                        </h2>
+                    </div>
+
                     <div className="footerInfo">
                         <a href="mailto:semihgervan@hotmail.com" className="mail">
                             👉 semihgervan@hotmail.com

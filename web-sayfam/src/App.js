@@ -17,7 +17,7 @@ function App() {
 
   //localStorage' da kullanıcının seçtiği dil seçeneğini kaydediyorum ve bir sonraki girişinde hatırlanmasını sağlıyorum. 
   //Ayrıca ilk kez oluşturulduğunda kullanılmasını sağlıyorum (Mounting fazı)
-  //useEffect ile 
+  //
 
   useEffect(() => {
     const savedLanguage = localStorage.getItem("language");

@@ -45,7 +45,7 @@ export default function ModeSwitch({ handleLanguageChange, language }) {
                 <div className="modeText">{darkMode ? "LIGHT MODE" : "DARK MODE"}</div>
                 <div className="modeText">|</div>
 
-//
+                /
 
                 {language === "en" ? (
                     <div>

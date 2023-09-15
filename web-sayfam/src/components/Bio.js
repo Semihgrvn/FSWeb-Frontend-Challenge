@@ -88,7 +88,7 @@ export default function Bio({ language }) {
                     )}
                     {language === "en" ? (
                         <p className="intro">
-                            Hello, I'm Semih. I'm a full-stack developer. If
+                            Hello, I'm Semih. I'm a full-stack developer.
                             If you want to create a solid and divisible web page
                             you can contact me.
 
